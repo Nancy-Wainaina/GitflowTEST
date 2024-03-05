@@ -1,105 +1,4 @@
 
-#writtings{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-button{
-    background-color: whitesmoke;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  width: 100%;
-  border-radius: 8px;
-  border: 2px solid gray;
-
- 
-}
-#bottom{
-    position: absolute;
-    bottom: 0;
-    width: 1644px;
-    margin-left: 86px;
-}
-#finals{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-#Body{
-    background-color: rgb(240, 203, 216);
-    border-radius: 20px;
-    padding: 20px;
-    margin: 5%;
-    border: solid black;
-    border-right-width: 5px;
-    border-bottom-width: 5px;
-
-}
-.sign-up{
-    background-color: rgb(1, 1, 23);
-    color:white;
-    padding: 1px;
-    box-sizing: border-box;
-    cursor: pointer;
-    border-radius: 70px;
-    width: 200%;
-    border-color: transparent;
-    border-radius: 10px;
-
-
-}
-#navigation{
-    display:flex;
-}
-#heading{
-    font-style: italic;
-    line-height: 0cm;
-    margin-bottom: 15px;
-
-
-}
-.search{
-    background-color: transparent;
-    box-sizing: border-box;
-    cursor: pointer;
-    width: 110%;
-    margin-right:20px ;
-    border:  1px solid black;
-    padding: 0px;
-    border-radius: 20px;
-    margin-top: 13px;
-}
-.courses{
-    border: 0cap;
-    background-color: transparent;
-}
-.apply{
-    background-color: transparent;
-    border: 0cap;
-    margin-left: 450px;
-    float: right;
-}
-.sign-in{
-    background-color: transparent;
-    border: 0cm;
-    margin-left: 200px;
-    position: fixed top;
-}
-.apply,.sign-up,.sign-up{
-    justify-content: space-evenly;
-}
-.courses,.search{
-    justify-content: space-between;
-    
-}
-#Container{
-    background-color: blueviolet;
-}
 #Content{
     display: flex; 
     gap: 20px;
@@ -108,10 +7,7 @@ button{
    margin-left: 90px; 
    margin-bottom: 150px;
  }
- #books{
-    
-
- }
+ 
  
  #box{
      padding: 15px 32px;
