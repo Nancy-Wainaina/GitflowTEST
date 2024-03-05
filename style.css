@@ -22,7 +22,8 @@ button{
 #bottom{
     position: absolute;
     bottom: 0;
-    width: 90%;
+    width: 1644px;
+    margin-left: 86px;
 }
 #finals{
     display: flex;
@@ -71,6 +72,7 @@ button{
     border:  1px solid black;
     padding: 0px;
     border-radius: 20px;
+    margin-top: 13px;
 }
 .courses{
     border: 0cap;
@@ -80,10 +82,13 @@ button{
     background-color: transparent;
     border: 0cap;
     margin-left: 450px;
+    float: right;
 }
 .sign-in{
     background-color: transparent;
     border: 0cm;
+    margin-left: 200px;
+    position: fixed top;
 }
 .apply,.sign-up,.sign-up{
     justify-content: space-evenly;
@@ -93,8 +98,31 @@ button{
     
 }
 #Container{
-    border: solid purple 1px;
     background-color: blueviolet;
-    height: 270px;
-    margin-bottom: 30px;
+}
+#Content{
+    display: flex; 
+    gap: 20px;
+ }
+ #Paragraph{
+   margin-left: 90px; 
+   margin-bottom: 150px;
+ }
+ #books{
+    
+
+ }
+ 
+ #box{
+     padding: 15px 32px;
+     background-color: white;
+     border-radius: 20px;
+     border: solid 1px;
+     width: 80%
+ }
+ #sentence{
+     font-size: 250%;
+     font-family: Georgia Verdana;
+     margin-bottom: 2px;
+     
 }
